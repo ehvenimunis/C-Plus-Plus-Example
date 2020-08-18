@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders31  Friend Function ve Class ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders31.o ..\src\Ders31.cpp
+g++ -oDers31  Friend Function ve Class.exe src\Ders31.o
+Build complete for project Ders31  Friend Function ve Class
+Time consumed: 2222  ms.  

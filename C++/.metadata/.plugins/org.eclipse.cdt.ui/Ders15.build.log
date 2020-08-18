@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Ders15 ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders15.o ..\src\Ders15.cpp
+g++ -oDers15.exe src\Ders15.o
+Build complete for project Ders15
+Time consumed: 1990  ms.  

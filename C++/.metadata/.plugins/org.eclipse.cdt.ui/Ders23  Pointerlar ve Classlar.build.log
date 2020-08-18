@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders23  Pointerlar ve Classlar ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders23.o ..\src\Ders23.cpp
+g++ -oDers23  Pointerlar ve Classlar.exe src\Ders23.o
+Build complete for project Ders23  Pointerlar ve Classlar
+Time consumed: 2106  ms.  

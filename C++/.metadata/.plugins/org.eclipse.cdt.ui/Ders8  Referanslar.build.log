@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders8  Referanslar ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders8.o ..\src\Ders8.cpp
+g++ -oDers8  Referanslar.exe src\Ders8.o
+Build complete for project Ders8  Referanslar
+Time consumed: 2337  ms.  

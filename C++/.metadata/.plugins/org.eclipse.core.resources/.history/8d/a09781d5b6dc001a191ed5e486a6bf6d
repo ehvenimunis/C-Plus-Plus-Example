@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : Ders30.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Ders29
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Static Method" << endl; // prints Static Method
+	return 0;
+}

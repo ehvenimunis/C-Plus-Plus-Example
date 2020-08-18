@@ -1,0 +1,45 @@
+//============================================================================
+// Name        : Ders25.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Ders1
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Employee{
+private:
+	string name;
+	int salary;
+public:
+	// Employee constructor'u iki farklı tipte yazılınca aşırı yüklenmiş olacaktır.
+	Employee(string name){ // First type
+		this->name = name;
+	}
+
+	Employee(string name, int salary){ // Second type
+		this->name = name; // this pointer her Class'a özgüdür
+		this->salary = salary;
+	}
+
+	Employee(string name, int salary){ // Second type
+		this->name = name; // this pointer her Class'a özgüdür
+		this->salary = 0; // Eğer salary gönderilmemiş ise "0" değerini alır.
+	}
+
+	void showInfos(){
+		cout << endl << name;
+	}
+
+};
+
+int main() {
+	cout << "Constructor Overloading" << endl; // prints Constructor Overloading
+
+	Employee employee1("First type");
+	cout << endl << employee1.nameShow();
+
+	return 0;
+}

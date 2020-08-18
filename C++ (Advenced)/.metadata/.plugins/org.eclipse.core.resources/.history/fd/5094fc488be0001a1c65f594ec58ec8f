@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : Ders1.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Kalýtým 1" << endl; // prints Kalýtým 1
+	return 0;
+}

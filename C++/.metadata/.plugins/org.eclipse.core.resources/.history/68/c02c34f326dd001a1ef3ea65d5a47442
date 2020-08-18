@@ -1,0 +1,48 @@
+//============================================================================
+// Name        : Ders32.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Ders29
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Test{
+private:
+	int a;
+public:
+	// constructor
+	Test(int a){
+		this->a = a;
+	}
+
+	int getValue() const { // bu metod herhangibir değeri değiştiremez. bu metod const olmayan metodları çağıramaz.
+		return this->a;
+	}
+};
+
+int main() {
+
+	cout << "Const Member Class and Methods" << endl; // prints Const Member Class and Methods
+
+	// obje
+	Test test1(10);
+	test1.a = 20;
+	cout << test1.a << endl;
+
+	// const obje
+	const Test test2(10); // obje "read only" oldu
+	//test2.a = 20;
+	// burada hata verir. çünkü sadece okunabilir, değişmez
+	cout << test2.a << endl;
+
+	// obje
+	Test test3(20);
+	cout << test3.b << endl;
+
+
+
+	return 0;
+}

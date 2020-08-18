@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Ders3 Overriding ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders3 Overriding.o ..\src\Ders3 Overriding.cpp
+g++ -oDers3 Overriding.exe src\Ders3 Overriding.o
+Build complete for project Ders3 Overriding
+Time consumed: 2052  ms.  

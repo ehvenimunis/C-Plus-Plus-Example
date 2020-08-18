@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders27  Destructor ve Bellek Sýzýntýlarý ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders27.o ..\src\Ders27.cpp
+g++ -oDers27  Destructor ve Bellek Sýzýntýlarý.exe src\Ders27.o
+Build complete for project Ders27  Destructor ve Bellek Sýzýntýlarý
+Time consumed: 2110  ms.  

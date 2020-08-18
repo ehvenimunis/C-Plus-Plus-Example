@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders18  Fonksiyon Overloading ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders18.o ..\src\Ders18.cpp
+g++ -oDers18  Fonksiyon Overloading.exe src\Ders18.o
+Build complete for project Ders18  Fonksiyon Overloading
+Time consumed: 1872  ms.  

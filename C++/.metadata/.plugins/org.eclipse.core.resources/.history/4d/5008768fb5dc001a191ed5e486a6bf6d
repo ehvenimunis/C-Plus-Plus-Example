@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : Ders29.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Ders29
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+// Static bellekte bir sefer oluşturulur daha sonra değeri onun üzerinden güncelleyebiliriz. Durağan bir değişkendir.
+
+Class Gamer(){
+public:
+	static int gamers;
+
+	//Constructor
+	Gamer(){
+		gamers++;
+		cout << "Yeni oyuncu oluşturuldu" << endl;
+	}
+}
+int main() {
+	cout << "Static Member Variables" << endl; // prints Statik Class Üyeleri
+
+
+
+
+
+	return 0;
+}

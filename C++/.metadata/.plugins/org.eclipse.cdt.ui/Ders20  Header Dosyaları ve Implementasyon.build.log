@@ -1,0 +1,9 @@
+
+**** Rebuild of configuration Debug for project Ders20  Header Dosyalarý ve Implementasyon ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders20.o ..\src\Ders20.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Employee.o ..\src\Employee.cpp
+g++ -oDers20  Header Dosyalarý ve Implementasyon.exe src\Employee.o src\Ders20.o
+Build complete for project Ders20  Header Dosyalarý ve Implementasyon
+Time consumed: 4612  ms.  

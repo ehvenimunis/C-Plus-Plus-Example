@@ -1,0 +1,57 @@
+//============================================================================
+// Name        : Ders1.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Ders29
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sstream>
+
+using namespace std;
+
+class calisan(){
+private:
+	string isim;
+	double para;
+public:
+	calisan(){
+		isim = "Ali";
+		para = 0;
+	}
+	calisan(string ad, double ucret){
+		isim = ad;
+		para = ucret;
+	}
+
+	void setAd(string ad){
+		isim = ad;
+	}
+
+	string getAd(){
+		return isim;
+	}
+
+	void setUcret(double ucret){
+		para = ucret;
+	}
+
+	double getUcret(){
+		return para;
+	}
+
+	string toString{
+		stringstream abc;
+		abc << isim << " : " << para;
+		return abc.str;
+	}
+
+}
+
+int main() {
+	cout << "Kalıtım" << endl; // prints Kalıtım
+
+
+	return 0;
+}

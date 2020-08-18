@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : Ders27.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Ders1
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Destructor ve Bellek Sýzýntýlarý " << endl; // prints Destructor ve Bellek Sýzýntýlarý 
+	return 0;
+}

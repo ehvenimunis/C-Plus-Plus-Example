@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders11  Nested Structure ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders11.o ..\src\Ders11.cpp
+g++ -oDers11  Nested Structure.exe src\Ders11.o
+Build complete for project Ders11  Nested Structure
+Time consumed: 1920  ms.  

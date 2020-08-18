@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : Ders6.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : 
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Template Class" << endl; // prints Template Class
+	return 0;
+}

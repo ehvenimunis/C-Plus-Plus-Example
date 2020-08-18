@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders24  This Pointer ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders24.o ..\src\Ders24.cpp
+g++ -oDers24  This Pointer.exe src\Ders24.o
+Build complete for project Ders24  This Pointer
+Time consumed: 2299  ms.  

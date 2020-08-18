@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders12  Sizeof ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders12.o ..\src\Ders12.cpp
+g++ -oDers12  Sizeof.exe src\Ders12.o
+Build complete for project Ders12  Sizeof
+Time consumed: 2091  ms.  

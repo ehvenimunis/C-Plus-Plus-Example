@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders30  Static Method ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders30.o ..\src\Ders30.cpp
+g++ -oDers30  Static Method.exe src\Ders30.o
+Build complete for project Ders30  Static Method
+Time consumed: 2185  ms.  

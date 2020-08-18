@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders17  Foreach Döngüsü ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders17.o ..\src\Ders17.cpp
+g++ -oDers17  Foreach Döngüsü.exe src\Ders17.o
+Build complete for project Ders17  Foreach Döngüsü
+Time consumed: 1981  ms.  

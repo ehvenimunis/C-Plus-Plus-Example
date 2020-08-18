@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Ders9  Pointer and Constant ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders9.o ..\src\Ders9.cpp
+g++ -oDers9  Pointer and Constant.exe src\Ders9.o
+Build complete for project Ders9  Pointer and Constant
+Time consumed: 2492  ms.  

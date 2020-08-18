@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : Ders31.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Ders29
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+// private değişkenler sadece kendi sınıfı tarafından ulaşılan değişkenlerdir
+class Employee{
+private:
+	int age;
+	int salary;
+	string name;
+public:
+	Employee(int age, int salary, string name){
+		this->age = age;
+		this->salary = salary;
+		this->name = name;
+	}
+
+	friend void showInfos(Employee employee);
+};
+
+// Class dışına bir fonksiyon yazalım
+void showInfos(Employee employee){
+	cout << employee.name << " " << employee.age << " " << employee.salary;
+}
+int main() {
+	cout << "Friend Function ve Class" << endl; // prints Friend Function ve Class
+
+
+
+	return 0;
+}

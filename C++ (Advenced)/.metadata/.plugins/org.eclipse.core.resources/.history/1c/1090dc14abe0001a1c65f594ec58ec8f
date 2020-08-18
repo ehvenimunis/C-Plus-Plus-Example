@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : Ders9.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Bu örnekte fonnksiyon aþýrý yüklemesi sonucu ortaya çýkan çok çeþitlilik konu olacaktýr
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Polymorphism" << endl; // prints Polymorphism
+	return 0;
+}

@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Ders31 ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders31.o ..\src\Ders31.cpp
+g++ -oDers31.exe src\Ders31.o
+Build complete for project Ders31
+Time consumed: 1913  ms.  

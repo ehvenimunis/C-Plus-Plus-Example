@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Ders3  Arrays ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders3.o ..\src\Ders3.cpp
+g++ -oDers3  Arrays.exe src\Ders3.o
+Build complete for project Ders3  Arrays
+Time consumed: 2045  ms.  

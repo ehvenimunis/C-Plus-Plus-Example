@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Ders4 Try Catch ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders4 Try Catch.o ..\src\Ders4 Try Catch.cpp
+g++ -oDers4 Try Catch.exe src\Ders4 Try Catch.o
+Build complete for project Ders4 Try Catch
+Time consumed: 1962  ms.  

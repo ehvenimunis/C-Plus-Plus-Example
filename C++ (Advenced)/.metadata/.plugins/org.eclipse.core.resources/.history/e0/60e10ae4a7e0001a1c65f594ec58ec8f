@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : Ders8.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : 
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Recursion " << endl; // prints Recursion 
+	return 0;
+}

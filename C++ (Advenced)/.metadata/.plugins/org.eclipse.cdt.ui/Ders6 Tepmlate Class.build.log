@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Ders6 Tepmlate Class ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders6 Tepmlate Class.o ..\src\Ders6 Tepmlate Class.cpp
+g++ -oDers6 Tepmlate Class.exe src\Ders6 Tepmlate Class.o
+Build complete for project Ders6 Tepmlate Class
+Time consumed: 1927  ms.  

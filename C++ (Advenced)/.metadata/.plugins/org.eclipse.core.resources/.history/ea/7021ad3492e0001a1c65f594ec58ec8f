@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : Ders4.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : 
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Try Catch" << endl; // prints Try Catch
+
+
+	try{
+		cout << " bir deger gir : " ;
+		int a;
+		cin >> a;
+		throw 40;
+	}
+
+	catch(int deger){
+		cout << "Hata"
+	}
+	return 0;
+}
