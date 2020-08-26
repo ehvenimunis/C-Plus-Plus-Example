@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : Ders2.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+/*
+int kare(int deger){
+    return deger*deger;
+}
+*/
+
+//bir fonksiyon tanýmlayalým
+template <typename T>
+void yazdir(vector<T>& v){
+    // tipini kendisi çalýþma esnasýnda bulsun diye "typename" yazdýk
+    typename vector<T>::iterator i = v.begin(); //baþlangýç adresi alýnýr iteratör vasýtasýyla
+    while (i != v.end())
+        cout << *i++;
+    cout << endl;
+}
+int main() {
+    vector<int>v;
+    vector<int>v1(5,10); //beþ adet 10 var
+    vector<int>v2(10); //10 tane 0 var
+    vector<int>v3(&v2[5],&v2[8]);
+    vector<int>v4(v1);
+
+    //tanýmlý fonksiyonu kullanalým
+    yazdir(v); //içi boþtur
+    yazdir(v1);
+    yazdir(v2);
+    yazdir(v3); //burada ise v3 vektörünün üç elmaný yazdýrýldý
+    yazdir(v4); //kopyalama yapýldý aslýnda
+
+    return 0;
+}
+

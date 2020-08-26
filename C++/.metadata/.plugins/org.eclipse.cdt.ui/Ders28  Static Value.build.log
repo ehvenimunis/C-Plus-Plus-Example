@@ -1,8 +1,5 @@
 
-**** Rebuild of configuration Debug for project Ders28  Static Value ****
+**** Build of configuration Debug for project Ders28  Static Value ****
 
 **** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders28.o ..\src\Ders28.cpp
-g++ -oDers28  Static Value.exe src\Ders28.o
-Build complete for project Ders28  Static Value
-Time consumed: 2151  ms.  
+Nothing to build for Ders28  Static Value

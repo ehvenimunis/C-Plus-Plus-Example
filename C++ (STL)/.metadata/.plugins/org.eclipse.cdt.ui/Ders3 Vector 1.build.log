@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Ders3 Vector 1 ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders3 Vector 1.o ..\src\Ders3 Vector 1.cpp
+g++ -oDers3 Vector 1.exe src\Ders3 Vector 1.o
+Build complete for project Ders3 Vector 1
+Time consumed: 2178  ms.  

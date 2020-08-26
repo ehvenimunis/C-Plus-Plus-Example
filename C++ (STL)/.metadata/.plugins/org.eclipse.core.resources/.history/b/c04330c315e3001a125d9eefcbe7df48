@@ -1,0 +1,103 @@
+//============================================================================
+// Name        : Ders9.cpp
+// Author      : Muhammed Salih Aydogan
+// Version     :
+// Copyright   : Deque
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <deque>
+#include <vector>
+
+using namespace std;
+template <typename T>
+void yazdir(T& t){
+    typename T::iterator iter = t.begin();
+    while (iter != t.end())
+        cout << *iter++ << " ";
+    cout << endl;
+}
+int main(){
+
+    //kurucu metod
+    deque<int> d;
+    cout << "içi boþ mu : " << d.empty() << endl;
+    d.push_back(7); // kuyru sonuna eleman ekler
+    d.push_back(8);
+    d.push_back(9);
+    d.push_front(6); // en baþa eleman ekler
+    cout << "içi boþ mu : " << d.empty() << endl;
+    cout << "ilk elmaný : " << d.front() << endl;
+    cout << "son elemaný : " << d.back() << endl;
+    cout << "bütün elemanlar : ";
+    yazdir(d);
+
+    //sondan çýkarma iþlemi
+    d.pop_back();
+    cout << "sondan çýkarma sonrasý : ";
+    yazdir(d);
+
+    // baþtan çýkarma
+    d.pop_front();
+    cout << "baþtan çýkarma sonrasý : ";
+    yazdir(d);
+
+    // tamamýný sileme metodu
+    d.clear();
+    cout << "silme iþlemi snrasý içi boþ mu : " << d.empty() << endl;
+
+
+    //pozisyon vererek eleman ekleme
+    cout << "insert ile eleman eklemek" << endl;
+    d.insert(d.begin(),5);
+    yazdir(d);
+    d.insert(d.end(),6);
+    yazdir(d);
+
+    vector <int> v;
+    v.push_back(1);
+    v.push_back(2);
+    v.push_back(3);
+    v.push_back(4);
+    cout << "Vektor : " ;
+    yazdir(v);
+
+
+    // þimdi vektör elemnlarýný kuyruða ekleyelim
+    d.insert(d.begin(), &v[0], &v[4]);
+    // d.insert(d.begin() + 1, &v[0], &v[3]);
+    cout << "ekleme sonrasý kuyruk elemanlari : ";
+    yazdir(d);
+
+    // aralýklý silme
+    d.erase(d.begin() + 3 , d.end() - 1);
+    yazdir(d);
+    cout << "kuyruktaki eleman sayýsý : " << d.size() << endl;
+
+    // yeniden boyutlandýrma iþlemi
+    d.resize(2); //daralýr
+    cout << endl << endl << "Boyutlandýrma sonrasý kalan elemanlar : ";
+    yazdir(d);
+
+    d.resize(5); // geniþler
+    // en sona 0 yerine 9 elamanýný ekler
+    // d.resize(10,9);
+    cout << "Boyutlandýrma sonrasý gelen elemanlar : ";
+    yazdir(d);
+    cout << "kuyruktaki eleman sayýsý : " << d.size() << endl;
+
+
+    // farklý kurucu metodlar
+    deque<int> d2(d); // kopyalama kurucusu
+    yazdir(d2);
+    deque<int> d3(5,7);
+    yazdir(d3);
+    deque<int> d4(&d2[2], &d2[7]);
+    yazdir(d2);
+
+
+
+
+
+}

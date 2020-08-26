@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ders3 Queue/src/Ders3 Vector 1.cpp&apos; to &apos;Ders3 Qeue.cpp&apos;" description="Rename resource &apos;Ders3 Vector 1.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Ders3 Vector 1.cpp" name="Ders3 Qeue.cpp" stamp="1597938806180" updateReferences="true"/>
+</session>
