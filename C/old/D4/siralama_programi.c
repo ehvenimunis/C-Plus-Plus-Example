@@ -1,4 +1,4 @@
-/* fonksiyon iþaretçileri kullanarak çok amaçlý sýralama programi */
+/* fonksiyon iï¿½aretï¿½ileri kullanarak ï¿½ok amaï¿½lï¿½ sï¿½ralama programi */
 #include <stdio.h>
 #define SIZE 10
 
@@ -7,23 +7,23 @@ void bubble(int *, const int, int (*)(int, int));
 int ascending(const int, const int);
 int descending(const int, const int);
 
-main()
+int main()
 {
-   //sýralanmamýþ a dizini yükle
+   //sï¿½ralanmamï¿½ï¿½ a dizini yï¿½kle
    int a[SIZE] = {2, 6, 4, 8, 10, 12, 89, 68, 45, 37};
    int counter, order;
 
    printf("Enter 1 to sort in ascending order,\n");
    printf("Enter 2 to sort in descending order: ");
-   scanf("%d", &order); //artan sýralama için 1 veya azalan sýralama için 2
+   scanf("%d", &order); //artan sï¿½ralama iï¿½in 1 veya azalan sï¿½ralama iï¿½in 2
 
    printf("\nData items in original order\n");
    
-   //orjinal diziyi göster
+   //orjinal diziyi gï¿½ster
    for (counter = 0; counter <= SIZE - 1; counter++)
       printf("%4d", a[counter]);
       
-   //diziyi artan þekilde sýrala
+   //diziyi artan ï¿½ekilde sï¿½rala
    if (order == 1) {
       bubble(a, SIZE, ascending);
       printf("\nData items in ascending order\n");
@@ -33,7 +33,7 @@ main()
       printf("\nData items in descending order\n");
    }//else blogu sonu
 
-   //sýralý diziyi göster
+   //sï¿½ralï¿½ diziyi gï¿½ster
    for (counter = 0; counter <= SIZE - 1; counter++)
       printf("%4d", a[counter]);
 
@@ -42,8 +42,8 @@ main()
    return 0;
 }//main sonu
 
-//çok amaçlý kabarcýk sýralama : compare parametresi sýralama þeklini belirleyen
-//karþýlaþtýrma fonksiyonuna iþaret eden bir iþaretçidir
+//ï¿½ok amaï¿½lï¿½ kabarcï¿½k sï¿½ralama : compare parametresi sï¿½ralama ÅŸeklini belirleyen
+//karÅŸÄ±laÅŸtÄ±rma fonksiyonuna iï¿½aret eden bir iï¿½aretï¿½idir
 void bubble(int *work, const int size, int (*compare)(int, int))
 {
    int pass, count;
@@ -57,23 +57,22 @@ void bubble(int *work, const int size, int (*compare)(int, int))
             swap(&work[count], &work[count + 1]);
 }
 
-//aldýðý iþaretçileri iþaret ettikleri bellek bölgelerindeki deðerleri deðiþtir.
+//aldï¿½ï¿½ï¿½ iï¿½aretï¿½ileri iï¿½aret ettikleri bellek bï¿½lgelerindeki deï¿½erleri deï¿½iï¿½tir.
 void swap(int *element1Ptr, int *element2Ptr)
 {
    int temp;
-
    temp = *element1Ptr;
    *element1Ptr = *element2Ptr;
    *element2Ptr = temp;
 }
 
-//elemanlarýn artan sýralama þekline göre sýraya uygun olup olmadýklarýný kontrol eder
+//elemanlarï¿½n artan sï¿½ralama ï¿½ekline gï¿½re sï¿½raya uygun olup olmadï¿½klarï¿½nï¿½ kontrol eder
 int ascending(const int a, const int b)
 {
    return b < a;
 }
 
-//elemanlarýn azalan sýralama þekline göre sýraya uygun olup olmadýklarýný kontrol eder
+//elemanlarï¿½n azalan sï¿½ralama ï¿½ekline gï¿½re sï¿½raya uygun olup olmadï¿½klarï¿½nï¿½ kontrol eder
 int descending(const int a, const int b)
 {
    return b > a;
