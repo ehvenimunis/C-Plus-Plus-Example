@@ -1,5 +1,5 @@
 //c_programlama_alistirmasi_1.c
-//birleşik faiz hesaplalamsı yapan c programı
+//birleÅŸik faiz hesaplalamsÄ± yapan c program
 
 #include <stdio.h>
 #include <math.h>
@@ -11,13 +11,13 @@ int main(void)
 	int yil_degeri;
 	double yatan_miktar;
 	
-	//yapılacak tablo için sutun başlıklarını yazma
-	printf("%4s%21s\n", "Yil","Yatan Miktar");
+	//tablo iÃ§in bÄ±rakacaÄŸÄ± boÅŸluklarÄ± "s" yazarak belirttik
+	printf("%5s%21s\n", "Yil","Yatan Miktar");
 	
 	for(yil_degeri=1; yil_degeri<=10; ++yil_degeri){
-		yatan_miktar = ilk_yatirim * pow(1.0 + faiz_orani,yil_degeri);
+		yatan_miktar = ilk_yatirim * pow(1.0 + faiz_orani, yil_degeri);
 		
-		//tablonun bir satırını yazdırma
+		//tablonun bir satï¿½rï¿½nï¿½ yazdï¿½rma
 		printf("%4u%21f\n",yil_degeri,yatan_miktar);
 	}//for sonu
 	
