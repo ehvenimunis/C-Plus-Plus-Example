@@ -1,0 +1,48 @@
+!SESSION 2020-09-01 18:48:23.018 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 2 0 2020-09-01 18:48:24.205
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-01 18:48:24.205
+!MESSAGE Could not parse key sequence: plug-in='org.eclipse.cdt.make.ui', id='org.eclipse.cdt.make.ui.targetBuildCommand', keySequence='Shift+F9'
+!SESSION 2020-09-01 18:48:46.447 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 2 0 2020-09-01 18:48:47.619
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-01 18:48:47.619
+!MESSAGE Could not parse key sequence: plug-in='org.eclipse.cdt.make.ui', id='org.eclipse.cdt.make.ui.targetBuildCommand', keySequence='Shift+F9'
+!SESSION 2020-09-01 18:51:07.809 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data C:\Users\ehven\OneDrive\Belgeler\Example -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 2 0 2020-09-01 18:51:08.921
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-01 18:51:08.921
+!MESSAGE Could not parse key sequence: plug-in='org.eclipse.cdt.make.ui', id='org.eclipse.cdt.make.ui.targetBuildCommand', keySequence='Shift+F9'
+!SESSION 2020-09-01 18:52:18.140 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product C:\Users\ehven\OneDrive\Belgeler\Example\C++ (STL)
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product C:\Users\ehven\OneDrive\Belgeler\Example\C++ (STL)
+
+!ENTRY org.eclipse.ui 2 0 2020-09-01 18:52:19.312
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-01 18:52:19.312
+!MESSAGE Could not parse key sequence: plug-in='org.eclipse.cdt.make.ui', id='org.eclipse.cdt.make.ui.targetBuildCommand', keySequence='Shift+F9'

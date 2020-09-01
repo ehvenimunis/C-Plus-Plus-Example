@@ -1309,3 +1309,122 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-08-21 14:17:49.520
 !MESSAGE Indexed 'Ders2.0 Vector' (1 sources, 51 headers) in 0,63 sec: 1.291 declarations; 2.150 references; 2 unresolved inclusions; 2 syntax errors; 1 unresolved names (% 0,03)
+!SESSION 2020-09-01 18:52:40.885 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 2 0 2020-09-01 18:52:43.161
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-01 18:52:43.161
+!MESSAGE Could not parse key sequence: plug-in='org.eclipse.cdt.make.ui', id='org.eclipse.cdt.make.ui.targetBuildCommand', keySequence='Shift+F9'
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2020-09-01 18:53:08.014
+!MESSAGE Usage data upload to http://udc.eclipse.org/upload.php failed with error code 302.
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-01 18:54:35.785
+!MESSAGE Error while parsing /Ders2.0 Vector/src/Ders2 Vector.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.isSameFunction(CPPSemantics.java:3278)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:714)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:266)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:56)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:86)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:2832)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:2814)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:255)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:168)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:92)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:268)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:364)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:159)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:799)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:757)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:637)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:344)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-01 18:54:36.501
+!MESSAGE Error while parsing /Ders2.1 Vector/src/Ders2.1 Vector.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.isSameFunction(CPPSemantics.java:3278)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:714)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:266)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:56)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:86)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:2832)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:2814)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:255)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:168)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:92)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:268)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:364)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:159)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:799)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:757)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:637)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:344)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-01 18:54:38.306
+!MESSAGE Error while parsing /Ders2.0 Vector/src/Ders2 Vector.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.isSameFunction(CPPSemantics.java:3278)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:714)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:266)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:56)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:86)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:2832)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:2814)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:255)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:168)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:92)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:268)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:364)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:159)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:799)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:757)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:637)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:344)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-09-01 18:54:38.812
+!MESSAGE Error while parsing /Ders2.1 Vector/src/Ders2.1 Vector.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.isSameFunction(CPPSemantics.java:3278)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:714)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:266)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:56)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:86)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:2832)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:2814)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:255)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:168)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:92)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:268)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:364)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:159)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:799)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:757)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:637)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:344)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

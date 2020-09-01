@@ -25,6 +25,7 @@ void yazdir(vector<T>& v){
         cout << *i++;
     cout << endl;
 }
+
 int main() {
     vector<int>v;
     vector<int>v1(5,10); //beþ adet 10 var

@@ -20,7 +20,6 @@ void yazdir(vector<T>& v){
     cout << endl;
 }
 
-
 int main() {
     vector<int> v6;
     v6.insert(v6.begin(),2); //vektörün baþýna 5 ekle

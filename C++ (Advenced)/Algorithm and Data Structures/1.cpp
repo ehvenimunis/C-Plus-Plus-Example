@@ -10,7 +10,7 @@ Date : 09/03/2020
 struct listNode{
     char data;
     struct listNode *nextPtr;
-}
+};
 
 typedef struct listNode listNode;
 typedef listNode *listNodePtr;
@@ -21,7 +21,7 @@ int main(){
     listNodePtr list1Ptr = NULL;
     char i;
     for(i='A'; i<='C'; i++)
-        insert(&list1Ptr, i);
+        insertNode(&list1Ptr, i);
 
 return 0;
 }
