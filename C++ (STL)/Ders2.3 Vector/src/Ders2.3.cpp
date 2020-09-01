@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 3.cpp
+// Name        : 2.3.cpp
 // Author      : Muhammed Salih Aydogan
 // Version     :
 // Copyright   : Vector
@@ -18,13 +18,16 @@ int main()
 
 	for (auto i = myvector.begin(); i != myvector.end(); ++i) {
 		if (*i % 2 == 0) {
+			cout << &i << endl;
 			myvector.erase(i);
-			i--;
+			//i--;
 		}
 	}
 
 	// Printing the vector
-	for (auto it = myvector.begin(); it != myvector.end(); ++it)
-		cout << ' ' << *it;
+	for (auto it = myvector.begin(); it != myvector.end(); ++it){
+		cout << ' ' << *it << "  adres : " << &it << endl;
+	}
+
 	return 0;
 }

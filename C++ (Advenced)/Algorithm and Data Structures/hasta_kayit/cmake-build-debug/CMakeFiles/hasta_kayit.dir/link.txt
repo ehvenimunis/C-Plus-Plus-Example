@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/hasta_kayit.dir/main.cpp.o  -o hasta_kayit 
