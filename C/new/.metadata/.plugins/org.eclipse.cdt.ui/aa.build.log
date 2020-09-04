@@ -1,0 +1,11 @@
+
+**** Rebuild of configuration Debug for project aa ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -oWÝN Masaüstü\ARM\ARM\Jenerator\kodlar\code\uart1\Drivers\CMSIS\DSP\Source\FastMathFunctions\arm_cos_q31.o ..\WÝN Masaüstü\ARM\ARM\Jenerator\kodlar\code\uart1\Drivers\CMSIS\DSP\Source\FastMathFunctions\arm_cos_q31.c
+..\WÝN Masaüstü\ARM\ARM\Jenerator\kodlar\code\uart1\Drivers\CMSIS\DSP\Source\FastMathFunctions\arm_cos_q31.c:29:10: fatal error: arm_math.h: No such file or directory
+   29 | #include "arm_math.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+Build error occurred, build is stopped
+Time consumed: 639  ms.  

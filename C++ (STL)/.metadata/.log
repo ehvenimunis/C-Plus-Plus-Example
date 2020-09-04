@@ -1428,3 +1428,15 @@ java.lang.NullPointerException
 	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:127)
 	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2020-09-01 19:20:26.009 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product C:\Users\ehven\OneDrive\Belgeler\Example\C\new\dinamik_bellek\dinamik1.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product C:\Users\ehven\OneDrive\Belgeler\Example\C\new\dinamik_bellek\dinamik1.c
+
+!ENTRY org.eclipse.ui 2 0 2020-09-01 19:20:28.153
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-01 19:20:28.153
+!MESSAGE Could not parse key sequence: plug-in='org.eclipse.cdt.make.ui', id='org.eclipse.cdt.make.ui.targetBuildCommand', keySequence='Shift+F9'

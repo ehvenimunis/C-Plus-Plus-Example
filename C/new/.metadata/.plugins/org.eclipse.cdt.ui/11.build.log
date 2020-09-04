@@ -1,0 +1,9 @@
+
+**** Build of configuration Debug for project 11 ****
+
+**** Internal Builder is used for build               ****
+gcc -o11.exe src\11.o
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file 11.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 116  ms.  
