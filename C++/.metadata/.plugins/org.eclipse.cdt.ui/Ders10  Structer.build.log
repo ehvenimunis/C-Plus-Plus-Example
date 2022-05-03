@@ -1,8 +1,1 @@
-
-**** Rebuild of configuration Debug for project Ders10  Structer ****
-
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders10.o ..\src\Ders10.cpp
-g++ -oDers10  Structer.exe src\Ders10.o
-Build complete for project Ders10  Structer
-Time consumed: 3874  ms.  
+Info: Nothing to build for Ders10  Structer

@@ -31,10 +31,8 @@ void showYapi(yapi* a){ // değer değiştirilebilir.
 }
 
 int main() {
-	cout << "Structer" << endl; // prints Structer
-
 	yapi example = {111, "ali", "iş"};
-	cout << example.id << endl;
+	cout << example.id << " " << example.name << " " << example.department << endl;
 
 
 	// pointer ile erişelim
