@@ -1,8 +1,7 @@
+17:18:41 **** Incremental Build of configuration Debug for project Ders13  Dinamik Bellek Yönetimi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders13.o" "..\\src\\Ders13.cpp" 
+g++ -o "Ders13  Dinamik Bellek Yönetimi.exe" "src\\Ders13.o" 
 
-**** Rebuild of configuration Debug for project Ders13  Dinamik Bellek Yönetimi ****
+17:18:43 Build Finished. 0 errors, 0 warnings. (took 1s.918ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders13.o ..\src\Ders13.cpp
-g++ -oDers13  Dinamik Bellek Yönetimi.exe src\Ders13.o
-Build complete for project Ders13  Dinamik Bellek Yönetimi
-Time consumed: 2008  ms.  

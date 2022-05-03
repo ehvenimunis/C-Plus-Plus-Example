@@ -15,9 +15,11 @@ int main() {
 	int *ptr = nullptr; // bu pointerin bellekte herhangibir yer göstermemesini istiyoruz. buna null pointer denir
 	ptr = new int; // yer ayırdık
 	*ptr = 10; // değer verdik
-	delete ptr; // alanı belleğe verdik ve bellek burasını kendine göre doldurabilir. aslında şuan pointer geçerli olmayan bir alana işaret ediyor. işte buna DANGLİNG REFERANS denir
+	delete ptr; // alanı belleğe verdik ve bellek burasını kendine göre doldurabilir ve doldurur istersen kontrol et. aslında şuan pointer geçerli olmayan bir alana işaret ediyor. işte buna DANGLİNG REFERANS denir
 
-	// eğer dangling referansa bu aşamdan sonra bir değer verirsek bilgisayarın kullandığı bir alana girmeye çalıştığımız için çalışma durdu hatası alınır
+
+
+	// eğer dangling referansa bu aşamadan sonra bir değer verirsek bilgisayarın kullandığı bir alana girmeye çalıştığımız için çalışma durdu hatası alınır
 	// örneğin :
 	// *ptr = 30;
 	// cout << *ptr << endl;

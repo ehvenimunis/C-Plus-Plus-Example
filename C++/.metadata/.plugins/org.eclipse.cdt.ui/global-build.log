@@ -33,3 +33,41 @@ Info: Nothing to build for Ders12  Sizeof
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders12.o" "..\\src\\Ders12.cpp" 
 g++ -o "Ders12  Sizeof.exe" "src\\Ders12.o" 
+17:17:48 **** Rebuild of configuration Debug for project Ders13  Dinamik Bellek Yönetimi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders13.o" "..\\src\\Ders13.cpp" 
+g++ -o "Ders13  Dinamik Bellek Yönetimi.exe" "src\\Ders13.o" 
+Info: Nothing to build for Ders13  Dinamik Bellek Yönetimi
+17:18:41 **** Incremental Build of configuration Debug for project Ders13  Dinamik Bellek Yönetimi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders13.o" "..\\src\\Ders13.cpp" 
+g++ -o "Ders13  Dinamik Bellek Yönetimi.exe" "src\\Ders13.o" 
+17:19:16 **** Rebuild of configuration Debug for project Ders15  Dinamik Bellek Yönetimi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders15.o" "..\\src\\Ders15.cpp" 
+g++ -o "Ders15  Dinamik Bellek Yönetimi.exe" "src\\Ders15.o" 
+17:20:53 **** Rebuild of configuration Debug for project Ders16  Null Pointer, Dangling Referans ve Pointerler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders16.o" "..\\src\\Ders16.cpp" 
+g++ -o "Ders16  Null Pointer, Dangling Referans ve Pointerler.exe" "src\\Ders16.o" 
+17:21:53 **** Incremental Build of configuration Debug for project Ders16  Null Pointer, Dangling Referans ve Pointerler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders16.o" "..\\src\\Ders16.cpp" 
+g++ -o "Ders16  Null Pointer, Dangling Referans ve Pointerler.exe" "src\\Ders16.o" 
+17:22:27 **** Incremental Build of configuration Debug for project Ders16  Null Pointer, Dangling Referans ve Pointerler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders16.o" "..\\src\\Ders16.cpp" 
+g++ -o "Ders16  Null Pointer, Dangling Referans ve Pointerler.exe" "src\\Ders16.o" 
+Info: Nothing to build for Ders16  Null Pointer, Dangling Referans ve Pointerler
+17:22:44 **** Incremental Build of configuration Debug for project Ders16  Null Pointer, Dangling Referans ve Pointerler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders16.o" "..\\src\\Ders16.cpp" 
+g++ -o "Ders16  Null Pointer, Dangling Referans ve Pointerler.exe" "src\\Ders16.o" 
+17:23:33 **** Incremental Build of configuration Debug for project Ders16  Null Pointer, Dangling Referans ve Pointerler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders16.o" "..\\src\\Ders16.cpp" 
+g++ -o "Ders16  Null Pointer, Dangling Referans ve Pointerler.exe" "src\\Ders16.o" 
+Info: Nothing to build for Ders16  Null Pointer, Dangling Referans ve Pointerler
+Info: Nothing to build for Ders16  Null Pointer, Dangling Referans ve Pointerler
+Info: Nothing to build for Ders16  Null Pointer, Dangling Referans ve Pointerler
+Info: Nothing to build for Ders16  Null Pointer, Dangling Referans ve Pointerler
