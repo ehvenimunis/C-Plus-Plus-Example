@@ -28,12 +28,10 @@ public:
 		*salary = s;
 	}
 
-	// delete yapılınca bu destructor fonksiyonu çağırılır
 	~Employee(){ // yıkıcı metod constructor için ayırılan yeri belleğe geri teslim eder
 		cout << "Destructor çağırıldı!" << endl;
 	}
 
-	// Bilgileri ekrana bastırır
 	void showInfos(){
 		cout << "Name :" << *name << "Salary : " << *salary << endl;
 	}

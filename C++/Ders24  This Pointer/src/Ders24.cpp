@@ -31,8 +31,8 @@ int main() {
 	cout << "This Pointer " << endl; // prints This Pointer 
 
 	Employee employee("Mustafa", 3000);
-	employee.setSalary(50009); // değer değişir
-	cout << endl << employee.getSalary(); // değişen değer yazılır
+	employee.setSalary(50009);
+	cout << endl << employee.getSalary();
 
 	return 0;
 }

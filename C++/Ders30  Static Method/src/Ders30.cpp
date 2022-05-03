@@ -2,7 +2,7 @@
 // Name        : Ders30.cpp
 // Author      : Muhammed Salih Aydogan
 // Version     :
-// Copyright   : Ders29
+// Copyright   : Ders30
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
@@ -26,7 +26,6 @@ int main() {
 
 	Matematik::cube(3); // Static olduğu için sınıf ismi üzerinden bu metodlara erişebildik.
 	Matematik::add2(5);
-
 
 	return 0;
 }

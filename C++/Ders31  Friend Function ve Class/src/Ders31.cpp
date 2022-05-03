@@ -2,7 +2,7 @@
 // Name        : Ders31.cpp
 // Author      : Muhammed Salih Aydogan
 // Version     :
-// Copyright   : Ders29
+// Copyright   : Ders31
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
@@ -23,7 +23,7 @@ public:
 	}
 
 	friend void showInfos(Employee employee); // Friend fonksiyon Class içindeki private değerlere ulaşabilir.
-	friend class Test;
+	friend class Test;   // Friend Class
 };
 
 // Class dışına bir fonksiyon yazalım
@@ -34,7 +34,7 @@ void showInfos(Employee employee){
 // Friend olacak bir class yazalım, bu class diğer sınıfın private değerlerine ulaşmaya çalışsın
 class Test{
 public:
-	static void showInfos(Employee employee){ // obje oluşturmadan fonksiyona sınıf üzerinden erişmek için static yaptık
+	static void showInfos(Employee employee){ // obje oluşturmadan fonksiyona sınıf üzerinden erişmek için static yaptık. Yani static olduğu için sınıf ismi üzerinden bu metoda erişebildik.
 		cout << employee.name << " " << employee.age << " " << employee.salary << endl; // private değerler yazıldı
 	}
 

@@ -14,8 +14,6 @@ private:
 	string name;
 	int salary;
 public:
-	// Employee constructor'u üç farklı tipte yazılınca aşırı yüklenmiş olacaktır.
-
 	// constructor için yer ayırılınca bu fonksiyon çağırılır.
 	Employee(){
 		cout << "Constructor çağırıldı!" << endl;

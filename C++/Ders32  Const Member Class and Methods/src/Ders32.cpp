@@ -17,8 +17,6 @@ public:
 	Test(int a){
 		this->a = a;
 	}
-
-
 };
 
 int main() {

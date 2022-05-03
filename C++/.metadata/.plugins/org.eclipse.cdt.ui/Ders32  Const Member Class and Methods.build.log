@@ -1,8 +1,7 @@
+23:23:06 **** Rebuild of configuration Debug for project Ders32  Const Member Class and Methods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders32.o" "..\\src\\Ders32.cpp" 
+g++ -o "Ders32  Const Member Class and Methods.exe" "src\\Ders32.o" 
 
-**** Rebuild of configuration Debug for project Ders32  Const Member Class and Methods ****
+23:23:08 Build Finished. 0 errors, 0 warnings. (took 1s.913ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders32.o ..\src\Ders32.cpp
-g++ -oDers32  Const Member Class and Methods.exe src\Ders32.o
-Build complete for project Ders32  Const Member Class and Methods
-Time consumed: 2273  ms.  

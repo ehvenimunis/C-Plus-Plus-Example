@@ -1,8 +1,7 @@
+23:21:11 **** Incremental Build of configuration Debug for project Ders31  Friend Function ve Class ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders31.o" "..\\src\\Ders31.cpp" 
+g++ -o "Ders31  Friend Function ve Class.exe" "src\\Ders31.o" 
 
-**** Rebuild of configuration Debug for project Ders31  Friend Function ve Class ****
+23:21:13 Build Finished. 0 errors, 0 warnings. (took 2s.16ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders31.o ..\src\Ders31.cpp
-g++ -oDers31  Friend Function ve Class.exe src\Ders31.o
-Build complete for project Ders31  Friend Function ve Class
-Time consumed: 2222  ms.  

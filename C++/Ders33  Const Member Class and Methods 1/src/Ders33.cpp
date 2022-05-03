@@ -31,7 +31,7 @@ void test(const Test &test){ // test sınıfından bir refearns alıyor. eğer r
 int main() {
 	cout << "Const Member Class and Methods 1" << endl; // prints Const Member Class and Methods 1
 
-	Test test1(10);
+	Test test1(1055);
 	cout << test1.getValue() << endl;
 
 	test(test1); // metodu çağırdık

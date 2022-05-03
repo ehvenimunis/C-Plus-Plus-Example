@@ -1,8 +1,7 @@
+23:14:50 **** Incremental Build of configuration Debug for project Ders29  Static Member Variables ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders29.o" "..\\src\\Ders29.cpp" 
+g++ -o "Ders29  Static Member Variables.exe" "src\\Ders29.o" 
 
-**** Rebuild of configuration Debug for project Ders29  Static Member Variables ****
+23:14:52 Build Finished. 0 errors, 0 warnings. (took 1s.921ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders29.o ..\src\Ders29.cpp
-g++ -oDers29  Static Member Variables.exe src\Ders29.o
-Build complete for project Ders29  Static Member Variables
-Time consumed: 2127  ms.  
