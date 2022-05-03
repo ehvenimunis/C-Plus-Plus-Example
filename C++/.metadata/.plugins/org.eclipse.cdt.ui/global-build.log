@@ -1,12 +1,125 @@
-14:52:36 **** Incremental Build of configuration Debug for project Ders1 ****
+Info: Nothing to build for Ders9  Pointer and Constant
+Info: Nothing to build for Ders9  Pointer and Constant
+16:51:03 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders1.o" "..\\src\\Ders1.cpp" 
-g++ -o Ders1.exe "src\\Ders1.o" 
-14:52:57 **** Incremental Build of configuration Debug for project Ders7  Pointers 1 ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:51:11 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders7.o" "..\\src\\Ders7.cpp" 
-g++ -o "Ders7  Pointers 1.exe" "src\\Ders7.o" 
-14:53:26 **** Incremental Build of configuration Debug for project Ders8  Referanslar ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:51:25 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders8.o" "..\\src\\Ders8.cpp" 
-g++ -o "Ders8  Referanslar.exe" "src\\Ders8.o" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:51:46 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:54:02 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:55:48 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+..\src\Ders9.cpp: In function 'int main()':
+..\src\Ders9.cpp:54:9: error: conflicting declaration 'int a'
+   54 |     int a{ 90 };
+      |         ^
+..\src\Ders9.cpp:21:6: note: previous declaration as 'int a [9]'
+   21 |  int a[] = {10, 20, 30, 40, 50, 60, 70, 80, 90};
+      |      ^
+..\src\Ders9.cpp:57:21: error: cannot convert 'int (*)[9]' to 'int* const' in initialization
+   57 |     int* const ptr{ &a };
+      |                     ^~
+      |                     |
+      |                     int (*)[9]
+..\src\Ders9.cpp:55:9: warning: unused variable 'b' [-Wunused-variable]
+   55 |     int b{ 50 };
+      |         ^
+16:56:12 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+..\src\Ders9.cpp: In function 'int main()':
+..\src\Ders9.cpp:54:9: error: conflicting declaration 'int a'
+   54 |     int a{ 90 };
+      |         ^
+..\src\Ders9.cpp:21:6: note: previous declaration as 'int a [9]'
+   21 |  int a[] = {10, 20, 30, 40, 50, 60, 70, 80, 90};
+      |      ^
+..\src\Ders9.cpp:57:22: error: cannot convert 'int (*)[9]' to 'int* const' in initialization
+   57 |     int* const ptrt{ &a };
+      |                      ^~
+      |                      |
+      |                      int (*)[9]
+..\src\Ders9.cpp:55:9: warning: unused variable 'b' [-Wunused-variable]
+   55 |     int b{ 50 };
+      |         ^
+16:56:34 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+..\src\Ders9.cpp: In function 'int main()':
+..\src\Ders9.cpp:55:9: warning: unused variable 'bb' [-Wunused-variable]
+   55 |     int bb{ 50 };
+      |         ^~
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:56:58 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+..\src\Ders9.cpp: In function 'int main()':
+..\src\Ders9.cpp:57:9: warning: unused variable 'bb' [-Wunused-variable]
+   57 |     int bb{ 50 };
+      |         ^~
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:57:59 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+..\src\Ders9.cpp: In function 'int main()':
+..\src\Ders9.cpp:55:9: warning: unused variable 'bb' [-Wunused-variable]
+   55 |     int bb{ 50 };
+      |         ^~
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:58:57 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+..\src\Ders9.cpp: In function 'int main()':
+..\src\Ders9.cpp:80:15: error: conflicting declaration 'const int a'
+   80 |     const int a{ 50 };
+      |               ^
+..\src\Ders9.cpp:21:6: note: previous declaration as 'int a [9]'
+   21 |  int a[] = {10, 20, 30, 40, 50, 60, 70, 80, 90};
+      |      ^
+..\src\Ders9.cpp:84:28: error: cannot convert 'int (*)[9]' to 'const int* const' in initialization
+   84 |      const int* const ptr{ &a };
+      |                            ^~
+      |                            |
+      |                            int (*)[9]
+..\src\Ders9.cpp:55:9: warning: unused variable 'bb' [-Wunused-variable]
+   55 |     int bb{ 50 };
+      |         ^~
+..\src\Ders9.cpp:81:16: warning: unused variable 'b' [-Wunused-variable]
+   81 |      const int b{ 90 };
+      |                ^
+16:59:16 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+..\src\Ders9.cpp: In function 'int main()':
+..\src\Ders9.cpp:55:9: warning: unused variable 'bb' [-Wunused-variable]
+   55 |     int bb{ 50 };
+      |         ^~
+..\src\Ders9.cpp:81:16: warning: unused variable 'ba' [-Wunused-variable]
+   81 |      const int ba{ 90 };
+      |                ^~
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
+16:59:31 **** Incremental Build of configuration Debug for project Ders9  Pointer and Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9.o" "..\\src\\Ders9.cpp" 
+..\src\Ders9.cpp: In function 'int main()':
+..\src\Ders9.cpp:55:9: warning: unused variable 'bb' [-Wunused-variable]
+   55 |     int bb{ 50 };
+      |         ^~
+..\src\Ders9.cpp:81:16: warning: unused variable 'ba' [-Wunused-variable]
+   81 |      const int ba{ 90 };
+      |                ^~
+g++ -o "Ders9  Pointer and Constant.exe" "src\\Ders9.o" 
