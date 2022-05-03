@@ -1,8 +1,7 @@
+14:53:26 **** Incremental Build of configuration Debug for project Ders8  Referanslar ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders8.o" "..\\src\\Ders8.cpp" 
+g++ -o "Ders8  Referanslar.exe" "src\\Ders8.o" 
 
-**** Rebuild of configuration Debug for project Ders8  Referanslar ****
+14:53:28 Build Finished. 0 errors, 0 warnings. (took 2s.332ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders8.o ..\src\Ders8.cpp
-g++ -oDers8  Referanslar.exe src\Ders8.o
-Build complete for project Ders8  Referanslar
-Time consumed: 2337  ms.  

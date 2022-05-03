@@ -1,8 +1,0 @@
-
-**** Build of configuration Debug for project Ders9 Deque ****
-
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders9 Deque.o ..\src\Ders9 Deque.cpp
-g++ -oDers9 Deque.exe src\Ders9 Deque.o
-Build complete for project Ders9 Deque
-Time consumed: 2703  ms.  

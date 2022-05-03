@@ -10,7 +10,6 @@
 using namespace std;
 
 int main() {
-	cout << "Pointers 1 " << endl; // prints Pointers 1 
 
 	string array[] = {"ali", "kuzey", "zylin"};
 
@@ -21,8 +20,7 @@ int main() {
 	cout << "array başlangıç değeri : " << *ptr << endl;
 	cout << "array son değeri : " << *(ptr+2) << endl;
 	cout << "array ikinci değeri : " << ptr[1] << endl;
-
-
+	//cout << "array ikinci değeri : " << *(ptr+1) << endl;
 
 
 	// integer 4 byte olduğunu görelim

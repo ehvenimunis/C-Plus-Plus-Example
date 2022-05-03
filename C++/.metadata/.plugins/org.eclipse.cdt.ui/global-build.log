@@ -1,0 +1,12 @@
+14:52:36 **** Incremental Build of configuration Debug for project Ders1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders1.o" "..\\src\\Ders1.cpp" 
+g++ -o Ders1.exe "src\\Ders1.o" 
+14:52:57 **** Incremental Build of configuration Debug for project Ders7  Pointers 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders7.o" "..\\src\\Ders7.cpp" 
+g++ -o "Ders7  Pointers 1.exe" "src\\Ders7.o" 
+14:53:26 **** Incremental Build of configuration Debug for project Ders8  Referanslar ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders8.o" "..\\src\\Ders8.cpp" 
+g++ -o "Ders8  Referanslar.exe" "src\\Ders8.o" 

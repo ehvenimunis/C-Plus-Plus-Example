@@ -1,8 +1,7 @@
+14:52:36 **** Incremental Build of configuration Debug for project Ders1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders1.o" "..\\src\\Ders1.cpp" 
+g++ -o Ders1.exe "src\\Ders1.o" 
 
-**** Build of configuration Debug for project Ders1 ****
+14:52:39 Build Finished. 0 errors, 0 warnings. (took 2s.884ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders1.o ..\src\Ders1.cpp
-g++ -oDers1.exe src\Ders1.o
-Build complete for project Ders1
-Time consumed: 2234  ms.  

@@ -20,6 +20,8 @@ int main() {
 	cout << "Değişken adresi : " << ptr << endl;
 	cout << "Değişken adresi : " << &a << endl;
 
+	cout << "Eski Değer : " << a << endl;
+
 	// değerinin pointer ile değiştirelim
 	*ptr = 18;
 

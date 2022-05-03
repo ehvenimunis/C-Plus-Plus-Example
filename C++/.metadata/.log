@@ -10110,3 +10110,315 @@ java.lang.NullPointerException: Inflater has been closed
 	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:919)
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+!SESSION 2022-05-03 14:52:05.263 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-03 14:52:21.487
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\90507'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:23.100
+!MESSAGE Indexed 'Ders1' (1 sources, 0 headers) in 0,603 sec: 3 declarations; 6 references; 1 unresolved inclusions; 0 syntax errors; 7 unresolved names (%44)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:33.681
+!MESSAGE Indexed 'Ders27  Destructor ve Bellek Sızıntıları' (1 sources, 124 headers) in 4,08 sec: 13.589 declarations; 21.386 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:37.396
+!MESSAGE Indexed 'Ders8  Referanslar' (1 sources, 124 headers) in 3,54 sec: 13.582 declarations; 21.355 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:40.327
+!MESSAGE Indexed 'Ders6  Pointers' (1 sources, 124 headers) in 2,79 sec: 13.582 declarations; 21.373 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:44.131
+!MESSAGE Indexed 'Ders23  Pointerlar ve Classlar' (1 sources, 124 headers) in 3,64 sec: 13.588 declarations; 21.370 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:45.743
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:45.770
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:47.130
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:47.133
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:47.136
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:47.138
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.getFilesystemLocation(AbstractLanguageSettingsOutputScanner.java:1161)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInFilesystem(AbstractLanguageSettingsOutputScanner.java:1256)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1197)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:47.140
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:48.042
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:48.047
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:48.049
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:48.100
+!MESSAGE Indexed 'Ders32  Const Member Class and Methods' (2 sources, 124 headers) in 3,96 sec: 13.593 declarations; 21.392 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:48.243
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.getFilesystemLocation(AbstractLanguageSettingsOutputScanner.java:1161)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInFilesystem(AbstractLanguageSettingsOutputScanner.java:1256)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1197)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:48.664
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2022-05-03 14:52:48.665
+!MESSAGE Exception trying to parse option [#include <c:\users\90507\gcc\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include>], class GCCBuiltinSpecsDetectorMinGW
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1221)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:51.298
+!MESSAGE Indexed 'Ders16  Null Pointer, Dangling Referans ve Pointerler' (1 sources, 124 headers) in 3,09 sec: 13.583 declarations; 21.365 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:53.250
+!MESSAGE Indexed 'Ders18  Fonksiyon Overloading' (1 sources, 124 headers) in 1,94 sec: 13.584 declarations; 21.363 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:55.976
+!MESSAGE Indexed 'Ders10  Structer' (1 sources, 124 headers) in 2,27 sec: 13.590 declarations; 21.425 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:52:58.105
+!MESSAGE Indexed 'Ders25  Constructor Overloading' (1 sources, 124 headers) in 2,12 sec: 13.593 declarations; 21.387 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:00.274
+!MESSAGE Indexed 'Ders7  Pointers 1' (1 sources, 124 headers) in 1,94 sec: 13.584 declarations; 21.391 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:02.362
+!MESSAGE Indexed 'Ders9  Pointer and Constant' (1 sources, 124 headers) in 1,99 sec: 13.584 declarations; 21.359 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:04.299
+!MESSAGE Indexed 'Ders28  Static Value' (1 sources, 124 headers) in 1,78 sec: 13.584 declarations; 21.369 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:06.221
+!MESSAGE Indexed 'Ders19  Sınıflar (Class) ve Nesne Yönelimli Programlamaya(OOP)' (1 sources, 124 headers) in 1,74 sec: 13.585 declarations; 21.378 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:07.877
+!MESSAGE Indexed 'Ders30  Static Method' (1 sources, 124 headers) in 1,65 sec: 13.585 declarations; 21.363 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:09.726
+!MESSAGE Indexed 'Ders13  Dinamik Bellek Yönetimi' (1 sources, 124 headers) in 1,8 sec: 13.581 declarations; 21.351 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:11.547
+!MESSAGE Indexed 'Ders31  Friend Function ve Class' (1 sources, 124 headers) in 1,81 sec: 13.598 declarations; 21.396 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:13.410
+!MESSAGE Indexed 'Ders11  Nested Structure' (1 sources, 124 headers) in 1,8 sec: 13.589 declarations; 21.400 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:15.379
+!MESSAGE Indexed 'Ders15  Dinamik Bellek Yönetimi' (1 sources, 124 headers) in 1,83 sec: 13.584 declarations; 21.378 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:17.189
+!MESSAGE Indexed 'Ders17  Foreach Döngüsü' (1 sources, 124 headers) in 1,67 sec: 13.583 declarations; 21.360 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:19.083
+!MESSAGE Indexed 'Ders33  Const Member Class and Methods 1' (1 sources, 124 headers) in 1,82 sec: 13.588 declarations; 21.367 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:20.863
+!MESSAGE Indexed 'Ders22  Pointerlar ve Classlar' (1 sources, 124 headers) in 1,73 sec: 13.586 declarations; 21.366 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:22.625
+!MESSAGE Indexed 'Ders4  Multi Arrays' (1 sources, 124 headers) in 1,76 sec: 13.583 declarations; 21.359 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:24.400
+!MESSAGE Indexed 'Ders12  Sizeof' (1 sources, 124 headers) in 1,72 sec: 13.583 declarations; 21.380 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:26.417
+!MESSAGE Indexed 'Ders3  Arrays' (1 sources, 124 headers) in 2,01 sec: 13.583 declarations; 21.362 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:28.185
+!MESSAGE Indexed 'Ders24  This Pointer' (1 sources, 124 headers) in 1,72 sec: 13.590 declarations; 21.367 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:28.853
+!MESSAGE Indexed 'Ders21  Private Erişim Belirleyicisi' (1 sources, 90 headers) in 0,564 sec: 1.661 declarations; 2.720 references; 43 unresolved inclusions; 160 syntax errors; 93 unresolved names (%2,1)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:30.801
+!MESSAGE Indexed 'Ders5  Switch Case' (2 sources, 124 headers) in 1,94 sec: 13.583 declarations; 21.408 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:32.639
+!MESSAGE Indexed 'Ders29  Static Member Variables' (1 sources, 124 headers) in 1,78 sec: 13.588 declarations; 21.375 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:34.298
+!MESSAGE Indexed 'Ders2  Arrays' (1 sources, 124 headers) in 1,61 sec: 13.581 declarations; 21.379 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:36.040
+!MESSAGE Indexed 'Ders20  Header Dosyaları ve Implementasyon' (2 sources, 125 headers) in 1,69 sec: 13.587 declarations; 21.383 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-03 14:53:37.707
+!MESSAGE Indexed 'Ders26  Destructor' (1 sources, 124 headers) in 1,62 sec: 13.586 declarations; 21.363 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (%0,017)
