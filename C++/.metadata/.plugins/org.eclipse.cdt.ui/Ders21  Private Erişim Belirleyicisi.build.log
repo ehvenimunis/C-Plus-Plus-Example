@@ -1,8 +1,7 @@
+17:30:32 **** Rebuild of configuration Debug for project Ders21  Private Eriþim Belirleyicisi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders21.o" "..\\src\\Ders21.cpp" 
+g++ -o "Ders21  Private Eriþim Belirleyicisi.exe" "src\\Ders21.o" 
 
-**** Rebuild of configuration Debug for project Ders21  Private Eriþim Belirleyicisi ****
+17:30:35 Build Finished. 0 errors, 0 warnings. (took 2s.479ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders21.o ..\src\Ders21.cpp
-g++ -oDers21  Private Eriþim Belirleyicisi.exe src\Ders21.o
-Build complete for project Ders21  Private Eriþim Belirleyicisi
-Time consumed: 2527  ms.  

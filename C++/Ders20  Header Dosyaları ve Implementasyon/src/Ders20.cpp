@@ -2,7 +2,7 @@
 // Name        : Ders20.cpp
 // Author      : Muhammed Salih Aydogan
 // Version     :
-// Copyright   : Ders1
+// Copyright   : Header Dosyaları ve Implementasyon
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 

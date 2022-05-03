@@ -2,7 +2,7 @@
 // Name        : Ders22.cpp
 // Author      : Muhammed Salih Aydogan
 // Version     :
-// Copyright   : Ders1
+// Copyright   : Pointerlar ve Sınıflarlar
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
@@ -24,12 +24,14 @@ public:
 };
 
 int main() {
-	cout << "Pointerlar ve Classlar" << endl; // prints Pointerlar ve Classlar
+	cout << "Pointerlar ve Sınıflar" << endl; // prints Pointerlar ve Sınıflarlar
 
 	Employee* employee = new Employee();; // Employee pointeri oluşturduk ve dinamik olarak yer ayırdık
 
-	employee -> setName("XSART"); // pointer aracılığı ile fonksiyonlarımıza ulaştık
+	employee -> setName("EbubekirOsmanAli"); // pointer aracılığı ile fonksiyonlarımıza ulaştık
 	cout << endl << employee->getName();
+
+	delete employee;
 
 	return 0;
 }

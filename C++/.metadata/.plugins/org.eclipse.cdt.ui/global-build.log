@@ -86,3 +86,33 @@ Info: Nothing to build for Ders17  Foreach Döngüsü
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders17.o" "..\\src\\Ders17.cpp" 
 g++ -o "Ders17  Foreach Döngüsü.exe" "src\\Ders17.o" 
+17:28:12 **** Rebuild of configuration Debug for project Ders19  Sýnýflar (Class) ve Nesne Yönelimli Programlamaya(OOP) ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders19.o" "..\\src\\Ders19.cpp" 
+g++ -o "Ders19  Sýnýflar (Class) ve Nesne Yönelimli Programlamaya(OOP).exe" "src\\Ders19.o" 
+17:29:14 **** Rebuild of configuration Debug for project Ders20  Header Dosyalarý ve Implementasyon ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders20.o" "..\\src\\Ders20.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Employee.o" "..\\src\\Employee.cpp" 
+g++ -o "Ders20  Header Dosyalarý ve Implementasyon.exe" "src\\Ders20.o" "src\\Employee.o" 
+17:30:32 **** Rebuild of configuration Debug for project Ders21  Private Eriþim Belirleyicisi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders21.o" "..\\src\\Ders21.cpp" 
+g++ -o "Ders21  Private Eriþim Belirleyicisi.exe" "src\\Ders21.o" 
+17:31:30 **** Rebuild of configuration Debug for project Ders22  Pointerlar ve Classlar ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders22.o" "..\\src\\Ders22.cpp" 
+g++ -o "Ders22  Pointerlar ve Classlar.exe" "src\\Ders22.o" 
+17:32:20 **** Incremental Build of configuration Debug for project Ders22  Pointerlar ve Classlar ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders22.o" "..\\src\\Ders22.cpp" 
+g++ -o "Ders22  Pointerlar ve Classlar.exe" "src\\Ders22.o" 
+Info: Nothing to build for Ders22  Pointerlar ve Classlar
+17:33:15 **** Incremental Build of configuration Debug for project Ders22  Pointerlar ve Classlar ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders22.o" "..\\src\\Ders22.cpp" 
+g++ -o "Ders22  Pointerlar ve Classlar.exe" "src\\Ders22.o" 
+17:33:42 **** Incremental Build of configuration Debug for project Ders22  Pointerlar ve Classlar ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders22.o" "..\\src\\Ders22.cpp" 
+g++ -o "Ders22  Pointerlar ve Classlar.exe" "src\\Ders22.o" 

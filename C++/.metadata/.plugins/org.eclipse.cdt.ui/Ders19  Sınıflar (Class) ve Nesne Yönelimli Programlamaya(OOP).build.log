@@ -1,8 +1,7 @@
+17:28:12 **** Rebuild of configuration Debug for project Ders19  Sýnýflar (Class) ve Nesne Yönelimli Programlamaya(OOP) ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders19.o" "..\\src\\Ders19.cpp" 
+g++ -o "Ders19  Sýnýflar (Class) ve Nesne Yönelimli Programlamaya(OOP).exe" "src\\Ders19.o" 
 
-**** Rebuild of configuration Debug for project Ders19  Sýnýflar (Class) ve Nesne Yönelimli Programlamaya(OOP) ****
+17:28:14 Build Finished. 0 errors, 0 warnings. (took 2s.374ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders19.o ..\src\Ders19.cpp
-g++ -oDers19  Sýnýflar (Class) ve Nesne Yönelimli Programlamaya(OOP).exe src\Ders19.o
-Build complete for project Ders19  Sýnýflar (Class) ve Nesne Yönelimli Programlamaya(OOP)
-Time consumed: 1961  ms.  

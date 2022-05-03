@@ -1,8 +1,7 @@
+17:33:42 **** Incremental Build of configuration Debug for project Ders22  Pointerlar ve Classlar ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders22.o" "..\\src\\Ders22.cpp" 
+g++ -o "Ders22  Pointerlar ve Classlar.exe" "src\\Ders22.o" 
 
-**** Rebuild of configuration Debug for project Ders22  Pointerlar ve Classlar ****
+17:33:45 Build Finished. 0 errors, 0 warnings. (took 2s.329ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders22.o ..\src\Ders22.cpp
-g++ -oDers22  Pointerlar ve Classlar.exe src\Ders22.o
-Build complete for project Ders22  Pointerlar ve Classlar
-Time consumed: 2160  ms.  
