@@ -1,7 +1,0 @@
-23:10:02 **** Incremental Build of configuration Debug for project Ders26  Destructor ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders26.o" "..\\src\\Ders26.cpp" 
-g++ -o "Ders26  Destructor.exe" "src\\Ders26.o" 
-
-23:10:04 Build Finished. 0 errors, 0 warnings. (took 1s.910ms)
-

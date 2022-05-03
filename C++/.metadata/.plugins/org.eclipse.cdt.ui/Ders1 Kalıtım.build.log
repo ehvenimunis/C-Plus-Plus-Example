@@ -1,8 +1,0 @@
-
-**** Rebuild of configuration Debug for project Ders1 Kalýtým ****
-
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders1 Kalýtým.o ..\src\Ders1 Kalýtým.cpp
-g++ -oDers1 Kalýtým.exe src\Ders1 Kalýtým.o
-Build complete for project Ders1 Kalýtým
-Time consumed: 3595  ms.  

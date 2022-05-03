@@ -1,7 +1,0 @@
-14:52:57 **** Incremental Build of configuration Debug for project Ders7  Pointers 1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders7.o" "..\\src\\Ders7.cpp" 
-g++ -o "Ders7  Pointers 1.exe" "src\\Ders7.o" 
-
-14:53:00 Build Finished. 0 errors, 0 warnings. (took 2s.517ms)
-

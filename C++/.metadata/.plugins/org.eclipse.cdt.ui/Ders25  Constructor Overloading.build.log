@@ -1,7 +1,0 @@
-23:08:03 **** Rebuild of configuration Debug for project Ders25  Constructor Overloading ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders25.o" "..\\src\\Ders25.cpp" 
-g++ -o "Ders25  Constructor Overloading.exe" "src\\Ders25.o" 
-
-23:08:05 Build Finished. 0 errors, 0 warnings. (took 1s.966ms)
-

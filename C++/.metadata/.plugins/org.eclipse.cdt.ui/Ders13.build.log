@@ -1,8 +1,0 @@
-
-**** Rebuild of configuration Debug for project Ders13 ****
-
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders13.o ..\src\Ders13.cpp
-g++ -oDers13.exe src\Ders13.o
-Build complete for project Ders13
-Time consumed: 2781  ms.  

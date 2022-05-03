@@ -1,7 +1,0 @@
-17:19:16 **** Rebuild of configuration Debug for project Ders15  Dinamik Bellek Yönetimi ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders15.o" "..\\src\\Ders15.cpp" 
-g++ -o "Ders15  Dinamik Bellek Yönetimi.exe" "src\\Ders15.o" 
-
-17:19:18 Build Finished. 0 errors, 0 warnings. (took 1s.914ms)
-

@@ -1,8 +1,0 @@
-
-**** Build of configuration Debug for project First_Proje ****
-
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\First_Proje.o ..\src\First_Proje.cpp
-g++ -oFirst_Proje.exe src\First_Proje.o
-Build complete for project First_Proje
-Time consumed: 2643  ms.  

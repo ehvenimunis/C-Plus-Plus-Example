@@ -1,1 +1,0 @@
-Bu klasördeki örnekler STL içerisindeki komutların kullanımı/öğrenilmesi için hazırlanmıştır.

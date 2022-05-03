@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Ders11/src/Ders11.cpp&apos; to &apos;Ders11  Nested Structure&apos;" description="Rename resource &apos;Ders11.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Ders11.cpp" name="Ders11  Nested Structure" stamp="1597426059387" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Ders11/src/Ders11  Nested Structure&apos; to &apos;Ders11.cpp&apos;" description="Rename resource &apos;Ders11  Nested Structure&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Ders11  Nested Structure" name="Ders11.cpp" stamp="1597426085082" updateReferences="true"/>
-</session>
