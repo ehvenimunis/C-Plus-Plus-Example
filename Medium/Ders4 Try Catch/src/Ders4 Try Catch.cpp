@@ -12,7 +12,6 @@ using namespace std;
 int main() {
 	cout << "Try Catch" << endl; // prints Try Catch
 
-
 	try{
 		cout << "bir deger gir : " ;
 		int a;

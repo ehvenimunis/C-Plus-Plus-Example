@@ -1,8 +1,7 @@
+23:56:13 **** Incremental Build of configuration Debug for project Ders5 Template ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders5 Template.o" "..\\src\\Ders5 Template.cpp" 
+g++ -o "Ders5 Template.exe" "src\\Ders5 Template.o" 
 
-**** Build of configuration Debug for project Ders5 Template ****
+23:56:15 Build Finished. 0 errors, 0 warnings. (took 2s.120ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders5 Template.o ..\src\Ders5 Template.cpp
-g++ -oDers5 Template.exe src\Ders5 Template.o
-Build complete for project Ders5 Template
-Time consumed: 1957  ms.  

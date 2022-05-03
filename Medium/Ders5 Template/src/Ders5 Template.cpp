@@ -11,7 +11,7 @@ using namespace std;
 
 // typename yerine "class" da yazýlabilir
 template <typename T> //template prefix ( template'in önceden tanýmlanmasý)
-T test(T a){ // template == þablon
+T test(T a){
 	return a;
 }
 

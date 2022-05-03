@@ -42,7 +42,7 @@ public:
 
 	string toString(){
 		stringstream abc;
-		abc << isim << " : " << para;
+		abc << isim << " : " << para << "---->calisan sýnýfý";
 		return abc.str();
 	}
 
@@ -63,7 +63,7 @@ public:
 
 	string toString(){ // diðer sýnýftaki fonksiyon ile ayný isimi taþýyor
 		stringstream a;
-		a << isim << " : " << para << " : " << number;
+		a << isim << " : " << para << " : " << number << "---->add sýnýfý";
 		return a.str();
 	}
 };

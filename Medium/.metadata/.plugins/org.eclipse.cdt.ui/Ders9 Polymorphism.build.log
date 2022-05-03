@@ -1,8 +1,7 @@
+00:04:46 **** Incremental Build of configuration Debug for project Ders9 Polymorphism ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders9 Polymorphism.o" "..\\src\\Ders9 Polymorphism.cpp" 
+g++ -o "Ders9 Polymorphism.exe" "src\\Ders9 Polymorphism.o" 
 
-**** Build of configuration Debug for project Ders9 Polymorphism ****
+00:04:49 Build Finished. 0 errors, 0 warnings. (took 2s.893ms)
 
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders9 Polymorphism.o ..\src\Ders9 Polymorphism.cpp
-g++ -oDers9 Polymorphism.exe src\Ders9 Polymorphism.o
-Build complete for project Ders9 Polymorphism
-Time consumed: 2715  ms.  

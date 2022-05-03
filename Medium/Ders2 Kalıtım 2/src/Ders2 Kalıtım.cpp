@@ -80,9 +80,5 @@ int main() {
 	person1.setNumber("8000");
 	cout << person1.toData() << endl; // kalıtım ile diğer sınıf değişkenlerine de ulaşarak yazdırdık
 
-
-
-
-
 	return 0;
 }

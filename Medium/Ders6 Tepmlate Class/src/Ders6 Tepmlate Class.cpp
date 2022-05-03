@@ -3,7 +3,6 @@
 // Author      : Muhammed Salih Aydogan
 // Version     :
 // Copyright   : 
-// Description : Hello World in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
