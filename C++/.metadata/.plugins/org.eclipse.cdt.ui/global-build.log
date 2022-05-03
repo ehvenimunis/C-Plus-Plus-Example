@@ -2,3 +2,11 @@ Info: Nothing to build for Ders10  Structer
 Info: Nothing to build for Ders10  Structer
 Info: Nothing to build for Ders10  Structer
 Info: Nothing to build for Ders10  Structer
+17:07:31 **** Rebuild of configuration Debug for project Ders11  Nested Structure ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders11.o" "..\\src\\Ders11.cpp" 
+g++ -o "Ders11  Nested Structure.exe" "src\\Ders11.o" 
+17:09:19 **** Incremental Build of configuration Debug for project Ders11  Nested Structure ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders11.o" "..\\src\\Ders11.cpp" 
+g++ -o "Ders11  Nested Structure.exe" "src\\Ders11.o" 

@@ -2,7 +2,7 @@
 // Name        : Ders11.cpp
 // Author      : Muhammed Salih Aydogan
 // Version     :
-// Copyright   : Ders1
+// Copyright   : Nested Structure
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
@@ -18,7 +18,7 @@ struct Employee{
 	int id;
 	string name;
 	string department;
-	Adress adress;
+	Adress adress; // Adress tipinde bir tanımlama
 };
 
 int main() {
