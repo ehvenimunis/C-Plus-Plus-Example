@@ -1,8 +1,0 @@
-
-**** Build of configuration Debug for project Ders11 Polymorphism 2 ****
-
-**** Internal Builder is used for build               ****
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -osrc\Ders11 Polymorphism 2.o ..\src\Ders11 Polymorphism 2.cpp
-g++ -oDers11 Polymorphism 2.exe src\Ders11 Polymorphism 2.o
-Build complete for project Ders11 Polymorphism 2
-Time consumed: 1864  ms.  

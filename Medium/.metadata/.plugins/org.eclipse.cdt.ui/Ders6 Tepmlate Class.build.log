@@ -1,7 +1,0 @@
-00:01:11 **** Incremental Build of configuration Debug for project Ders6 Tepmlate Class ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders6 Tepmlate Class.o" "..\\src\\Ders6 Tepmlate Class.cpp" 
-g++ -o "Ders6 Tepmlate Class.exe" "src\\Ders6 Tepmlate Class.o" 
-
-00:01:13 Build Finished. 0 errors, 0 warnings. (took 2s.124ms)
-

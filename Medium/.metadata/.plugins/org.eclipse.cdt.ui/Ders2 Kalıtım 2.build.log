@@ -1,7 +1,0 @@
-23:49:10 **** Incremental Build of configuration Debug for project Ders2 Kalýtým 2 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders2 Kalýtým.o" "..\\src\\Ders2 Kalýtým.cpp" 
-g++ -o "Ders2 Kalýtým 2.exe" "src\\Ders2 Kalýtým.o" 
-
-23:49:12 Build Finished. 0 errors, 0 warnings. (took 2s.275ms)
-
